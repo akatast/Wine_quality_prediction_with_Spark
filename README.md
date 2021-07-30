@@ -15,8 +15,7 @@ Docker container for prediction application-
 https://hub.docker.com/repository/docker/as5721/as57dockerpublic
 
 Command to execute docker container using input file-
-
-sudo docker run -it -v `pwd`/TestDataset.csv:/dataset/TestDataset.csv as5721/as57dockerpublic:test-wine-qp /dataset/TestDataset.csv
+Please check fist page of attached PDF to execute Docker container for prediction application using local input file.
 
 Please make sure docker is started and input file TestDataset.csv is available at the same directory where this command is being submitted.
 
