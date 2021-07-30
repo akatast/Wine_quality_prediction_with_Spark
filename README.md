@@ -1,6 +1,6 @@
 # A wine quality prediction ML model in Spark over AWS
 
-GitHub URLs:
+**GitHub URLs:**
 
 Parallel training implementation-
 https://github.com/akatast/Wine_quality_prediction/blob/main/wineQPredModelTraining.py
@@ -8,16 +8,20 @@ https://github.com/akatast/Wine_quality_prediction/blob/main/wineQPredModelTrain
 Single machine prediction application-
 https://github.com/akatast/Wine_quality_prediction/blob/main/wineQPredModelValidation.py
 
-Docker hub URL:
+**Docker hub URL:**
 
 Docker container for prediction application-
 
-https://hub.docker.com/repository/docker/as5721/as57dockerpublic
+https://hub.docker.com/repository/docker/as5721/as57dockerpublic  
+
 
 
 **Command to execute docker container using input file-**
 
-Please check fist page of attached PDF to execute Docker container for prediction application using local input file.
+Please use following command to execute Docker container for prediction application using local input file:  
+``sudo docker run -it -v `pwd`/TestDataset.csv:/dataset/TestDataset.csv as5721/as57dockerpublic:test-wine-qp /dataset/TestDataset.csv``
+
+Same is present on page-1 for attached PFD guide-  
 https://github.com/akatast/Wine_quality_prediction/blob/main/Step-by-step%20guide.pdf
 
 
