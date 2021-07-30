@@ -3,10 +3,10 @@
 **GitHub URLs:**
 
 Parallel training implementation-
-https://github.com/akatast/Wine_quality_prediction/blob/main/wineQPredModelTraining.py
+https://github.com/akatast/Wine_quality_prediction_with_Spark/blob/main/wineQPredModelTraining.py
 
 Single machine prediction application-
-https://github.com/akatast/Wine_quality_prediction/blob/main/wineQPredModelValidation.py
+https://github.com/akatast/Wine_quality_prediction_with_Spark/blob/main/wineQPredModelValidation.py
 
 **Docker hub URL:**
 
@@ -20,6 +20,8 @@ https://hub.docker.com/repository/docker/as5721/as57dockerpublic
 
 Please use following command to execute Docker container for prediction application using local input file:  
 ``sudo docker run -it -v `pwd`/TestDataset.csv:/dataset/TestDataset.csv as5721/as57dockerpublic:test-wine-qp /dataset/TestDataset.csv``
+
+Above command is expecting TestDataset.csv as input file, in case of different input please change the file name in the command.  
 
 Same is present on page-1 for attached PFD guide-  
 https://github.com/akatast/Wine_quality_prediction/blob/main/Step-by-step%20guide.pdf
